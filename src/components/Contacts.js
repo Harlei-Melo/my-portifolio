@@ -5,7 +5,7 @@ function Contacts() {
   const [listContacts] = useState([
     {
       title: 'GitHub',
-      value: 'Harlei-Melo'
+      value: 'github.com/Harlei-Melo'
     },
     {
       title: 'Email',
@@ -13,7 +13,7 @@ function Contacts() {
     },
     {
       title: 'LinkedIn',
-      value: 'Harlei Melo'
+      value: 'linkedin.com/in/harlei-melo'
     }
   ]);
 
