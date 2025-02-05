@@ -474,7 +474,7 @@ section.contacts {
     display: flex;
     gap: 48px;
     flex-wrap: wrap; /* Permite que os botões quebrem linha se necessário */
-    justify-content: start;
+    justify-content: flex-start;
   }
   
   .btn {
