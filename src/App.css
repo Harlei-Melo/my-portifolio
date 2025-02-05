@@ -468,3 +468,30 @@ section.contacts {
         }
     }
 }
+
+.project-links {
+    margin-top: 48px;
+    display: flex;
+    gap: 24px;
+  }
+  
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 21px;
+    background: rgba(128, 128, 128, 0.5);
+    padding: 16px 56px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #fff;
+    transition: background 0.3s;
+  }
+  
+  .btn:hover {
+    background: rgba(128, 128, 128, 0.7);
+  }
+  
+  .btn .icon {
+    font-size: 1.2em;
+  }
+  
