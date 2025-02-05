@@ -8,26 +8,20 @@ return (
     <section ref={scrollTab} className='home'>
         <div className="content">
             <div className="name">
-                MY NAME IS <span>LUNDEV</span>
+                Olá, eu me chamo <span>Harlei Melo</span>
             </div>
             <div className="des">
                 {/* 30 */}
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores officiis beatae repellendus rem ullam, ipsam nemo dolorem dolorum illo laborum. Ea sed dolor ab qui, doloremque accusantium esse blanditiis possimus!
+                Designer e desenvolvedor Flutter que alia design e eficiência mobile. Uso o Figma para criar interfaces interativas com constante inovação e colaboração. Sempre apaixonado por jogos nostálgicos, como Grand Chase.
             </div>
             
             <a href="/democv.pdf" target="_blank" rel="noopener noreferrer" className='animation active '>
-                Download My CV
+                Baixar CV
             </a>
         </div>
         <div className="avatar">
             <div className="card">
-                <img src="/avatar.jpg" alt="" />
-                <div className="info">
-                    <div>Developer</div>
-                    <div>VietNamese</div>
-                    <div>03/12</div>
-                    <div>Male</div>
-                </div>
+                <img src="Laboratory 研究室.gif" alt="" />
             </div>
         </div>
     </section>
