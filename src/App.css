@@ -509,7 +509,7 @@ section.contacts {
     }
     
     .btn {
-      width: 100%; /* Botões ocupam a maior parte da largura */
+      width: 80%; /* Botões ocupam a maior parte da largura */
       max-width: 300px; /* Limita a largura máxima se necessário */
       margin-bottom: 24px;
     }
