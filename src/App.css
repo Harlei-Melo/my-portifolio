@@ -472,19 +472,23 @@ section.contacts {
 .project-links {
     margin-top: 48px;
     display: flex;
-    gap: 24px;
+    gap: 48px;
+    flex-wrap: wrap; /* Permite que os botões quebrem linha se necessário */
+    justify-content: start;
   }
   
   .btn {
     display: inline-flex;
     align-items: center;
-    gap: 21px;
-    background: rgba(128, 128, 128, 0.5);
+    gap: 16px;
+    background: rgba(128, 128, 128, 0.5); /* Cinza transparente */
     padding: 16px 56px;
     border-radius: 8px;
     text-decoration: none;
     color: #fff;
     transition: background 0.3s;
+    min-width: 120px; /* Largura mínima para os botões */
+    justify-content: center;
   }
   
   .btn:hover {
@@ -493,5 +497,21 @@ section.contacts {
   
   .btn .icon {
     font-size: 1.2em;
+  }
+  
+  /* Responsividade para telas menores */
+  @media screen and (max-width: 768px) {
+    .project-links {
+      flex-direction: column; /* Empilha os botões verticalmente */
+      gap: 10px;
+      align-items: center;
+  
+    }
+    
+    .btn {
+      width: 100%; /* Botões ocupam a maior parte da largura */
+      max-width: 300px; /* Limita a largura máxima se necessário */
+      margin-bottom: 24px;
+    }
   }
   
